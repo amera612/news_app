@@ -12,6 +12,7 @@ class NewsTile extends StatelessWidget {
         ClipRRect(
           borderRadius: BorderRadius.circular(7),
           child:
+
               // CachedNetworkImage(
               //   height: 200,
               //   width: double.infinity,

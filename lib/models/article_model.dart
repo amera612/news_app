@@ -9,4 +9,12 @@ class ArticleModel {
   String toString() {
     return 'ArticleModel{imageUrl: $imageUrl, title: $title, subTitle: $subTitle}';
   }
+
+  factory ArticleModel.fromJson(json) {
+    return ArticleModel(
+      imageUrl: json['urlToImage'],
+      title: json['title'],
+      subTitle: json['description'],
+    );
+  }
 }

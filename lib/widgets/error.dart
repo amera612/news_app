@@ -10,7 +10,7 @@ class Error extends StatelessWidget {
     return Container(
       height: MediaQuery.of(context).size.height,
       alignment: Alignment.center,
-      child: const Text('🌚there is an error ,try again'),
+      child: const Text('🤦🏻‍♀️🤦🏻‍♀️there is an error ,try again'),
     );
   }
 }
