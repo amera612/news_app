@@ -12,7 +12,9 @@ class CategoriesListView extends StatelessWidget {
       categoryName: 'business',
     ),
     CategoryModel(
-        imageUrl: 'assets/images/sports.avif', categoryName: 'sports'),
+      imageUrl: 'assets/images/sports.avif',
+      categoryName: 'sports',
+    ),
     CategoryModel(
       imageUrl: 'assets/images/technology.jpeg',
       categoryName: 'technology',

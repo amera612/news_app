@@ -12,9 +12,9 @@ class ArticleModel {
 
   factory ArticleModel.fromJson(json) {
     return ArticleModel(
-      imageUrl: json['urlToImage'],
+      imageUrl: json['image'],
       title: json['title'],
-      subTitle: json['description'],
+      subTitle: json['text'],
     );
   }
 }
